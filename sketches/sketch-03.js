@@ -11,7 +11,7 @@ const sketch = () => {
     context.fillStyle = 'white';
     context.fillRect(0, 0, width, height);
     
-    context.fillStyle = 'red';
+    context.fillStyle = 'black';
 
     const cx = width * 0.5;
     const cy = height * 0.5;
@@ -31,7 +31,7 @@ const sketch = () => {
     x = cx + radius * Math.sin(angle);
     y = cy + radius * Math.cos(angle);
 
-    // first cyan shapes
+    // first color shapes
     context.save();
     context.translate(x, y);
     context.rotate(-angle);
